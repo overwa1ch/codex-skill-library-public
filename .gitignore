@@ -1,0 +1,23 @@
+# Local secrets and environment files.
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Runtime, dependency, and bytecode caches.
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+
+# Generated, build, and temporary material.
+/tmp/
+/output/
+/runtime/
+/artifacts/
+dist/
+build/
+*.log
+.DS_Store
